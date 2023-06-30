@@ -40,6 +40,11 @@ inquirer
                     checked: false,
                 },
                 {
+                    name: 'Deny access to all dot files',
+                    value: 'deny_dot_files',
+                    checked: false,
+                },
+                {
                     name: 'Deny access to wp-config.php file (recommended)',
                     value: 'deny_wp_config',
                     checked: true,
@@ -47,11 +52,6 @@ inquirer
                 {
                     name: 'Deny access to .htaccess file (recommended)',
                     value: 'deny_htaccess',
-                    checked: true,
-                },
-                {
-                    name: 'Deny access to all dot files (recommended)',
-                    value: 'deny_dot_files',
                     checked: true,
                 },
                 {

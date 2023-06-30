@@ -1,6 +1,6 @@
 {
     "name": "@jorenrothman/secure-wordpress",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A CLI tool to secure your WordPress install using .htaccess files",
     "main": "dist/cli.js",
     "bin": "dist/cli.js",
