@@ -1,0 +1,37 @@
+{
+    "name": "@jorenrothman/secure-wordpress",
+    "version": "1.0.0",
+    "description": "A CLI tool to secure your WordPress install using .htaccess files",
+    "main": "index.js",
+    "bin": {
+        "secure-wordpress": "dist/cli.js"
+    },
+    "scripts": {
+        "tsc": "tsc",
+        "build": "tsup src/cli.ts",
+        "start": "node dist/cli.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "keywords": [
+        "CLI",
+        "WordPress",
+        "htaccess",
+        "secure"
+    ],
+    "author": "Joren Rothman",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/inquirer": "^9.0.3",
+        "@types/node": "^20.3.2",
+        "tsup": "^7.1.0",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "inquirer": "^8.2.5"
+    },
+    "volta": {
+        "node": "18.16.1"
+    }
+}
