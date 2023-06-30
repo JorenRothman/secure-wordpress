@@ -1,10 +1,12 @@
 {
     "name": "@jorenrothman/secure-wordpress",
-    "version": "1.0.0",
+    "version": "0.0.3",
     "description": "A CLI tool to secure your WordPress install using .htaccess files",
-    "main": "index.js",
-    "bin": {
-        "secure-wordpress": "dist/cli.js"
+    "main": "dist/cli.js",
+    "bin": "dist/cli.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JorenRothman/secure-wordpress.git"
     },
     "scripts": {
         "tsc": "tsc",
