@@ -55,7 +55,7 @@ inquirer
                     checked: true,
                 },
                 {
-                    name: 'Deny access to all sql files (recommended)',
+                    name: 'Deny access to all SQL files (recommended)',
                     value: 'deny_sql_files',
                     checked: true,
                 },
